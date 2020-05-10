@@ -1,7 +1,7 @@
 {
-    "orgName": "HC ADK",
+    "orgName": "HealtFeedDemo1",
     "country": "US",
-    "edition": "Partner Enterprise",
+    "edition": "Developer",
     "description": "Contains a baseline demo of Health Cloud app.",
     "features": [
       "HealthCloudUser",
@@ -11,11 +11,20 @@
       "AnalyticsAdminPerms"
   ],
     "settings": {
-      "orgPreferenceSettings": {
-        "s1DesktopEnabled": true,
-        "chatterEnabled": true,
-        "networksEnabled": true
-      }
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "securitySettings": {
+		"passwordPolicies": {
+			"enableSetPasswordInApi": true
+		}
+	},
+        "chatterSettings": {
+            "enableChatter": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        }
     }
 }
 

@@ -10,8 +10,8 @@ System.resetPassword (u.Id, true);
 
 //HcDemoPack_DataSetup.deactiveAgent();
 HcDemoPack_DataSetup.createMel();
-HcDemoPack_DataSetup.createJohn();
-HcDemoPack_DataSetup.createSally();
+//HcDemoPack_DataSetup.createJohn();
+//HcDemoPack_DataSetup.createSally();
 //HcDemoPack_DataSetup.createPeter();
 
 
